@@ -56,7 +56,7 @@ function App() {
   }, [authUser, dispatch]);
 
   return (
-    <div className="p-4 h-screen flex items-center justify-center">
+    <div className="min-h-screen w-full flex items-center justify-center px-4 py-6">
       <RouterProvider router={router} />
     </div>
   );

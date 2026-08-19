@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import SendInput from './SendInput'
 import Messages from './Messages';
 import { useSelector } from "react-redux";
